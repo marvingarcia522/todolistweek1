@@ -17,9 +17,6 @@ use App\Http\Controllers\TodoListController;
 
 Route::get('/', "App\Http\Controllers\TodoListController@index");
 
-
-
-
 Route::get('create', "App\Http\Controllers\TodoListController@create");
 
 Route::get('save_task', "App\Http\Controllers\TodoListController@store");
